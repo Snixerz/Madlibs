@@ -1,9 +1,9 @@
 story_selector = {
-  "1": "The {noun} is very {adjective} and is going to {verb}",
-  "2": "The {adjective} {noun} went to {verb}",
-  "3": "At the top of the hill a {noun} was feeling {adjective} and decided to {verb}",
-  "4": "Inside the car a {noun} was {adjective} and insisted to {verb}",
-  "5": "After school the {noun} was {adjective} and decided to {verb}",
+  "1": "\033[1;32;40m The {noun} is very {adjective} and is going to {verb} \n",
+  "2": "\033[1;32;40m The {adjective} {noun} went to {verb}\n",
+  "3": "\033[1;32;40m At the top of the hill a {noun} was feeling {adjective} and decided to {verb}\n",
+  "4": "\033[1;32;40m Inside the car a {noun} was {adjective} and insisted to {verb}\n",
+  "5": "\033[1;32;40m After school the {noun} was {adjective} and decided to {verb}\n",
 }
 
 number = input("Select a random story from numbers 1-5: ")
@@ -11,6 +11,7 @@ print(story_selector.get(number))
 noun = input("Enter a noun: ")
 adjective = input("Enter an adjective: ")
 verb = input("enter a verb: ")
+
 
 if number == "1":
   print(f"The {noun} is very {adjective} and is going to {verb}")
