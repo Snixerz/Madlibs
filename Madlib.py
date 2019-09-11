@@ -12,7 +12,6 @@ noun = input("Enter a noun: ")
 adjective = input("Enter an adjective: ")
 verb = input("enter a verb: ")
 
-
 if number == "1":
   print(f"The {noun} is very {adjective} and is going to {verb}")
 elif number == "2":
